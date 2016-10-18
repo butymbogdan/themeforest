@@ -1,0 +1,133 @@
+ul {
+    padding: 0;
+}
+li {
+    float: left;
+    list-style: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+.btn-success {
+    background-color: #009900;
+    border-color: #009900;
+}
+.navbar-top {
+    background-color: #000;
+    border: none;
+}
+.navbar-top li>a:hover, .navbar-top li>a:focus {
+    background: transparent;
+    text-decoration: underline;
+    color: #fff;
+}
+.navbar-top li>a:focus{
+    color: #409bfb;
+    text-decoration: none;
+}
+.modal-content {
+    width: 380px;
+}
+.modal-content label {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.modal-content input {
+    border-radius: 0;
+    margin-top: 5px;
+}
+.checkbox-wrap {
+    width: auto!important;
+}
+.button-form {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group {
+    position: relative;
+}
+.form-group .form-control {
+    padding: 6px 50px 6px 12px;
+}
+.btn-search {
+    width: 45px;
+    height: 34px;
+    padding: 0;
+    color: #008000;
+}
+.btn-search.active, .btn-search:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-search i {
+    color: #008000;
+    font-size: 20px;
+}
+.navbar-inverse {
+    background-color: #1a191a;
+    border-color: #1a191a;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #409bfb;
+    font-weight: bold;
+}
+.breadcrumb-sect {
+    background-color: #f5f5f5;
+}
+.breadcrumb {
+    margin-bottom: 20px;
+}
+.page-header {
+    padding-bottom: 0;
+    margin: 30px 0 20px;
+    border-bottom: 1px dashed #5cb85c;
+}
+.page-header  h2 {
+    font-size: 25px;
+}
+.pagination-sect {
+    border-top: dashed 1px #5cb85c;
+    border-bottom: dashed 1px #5cb85c;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.pagination {
+    margin: 10px auto;
+    display: table;
+}
+.footer {
+    background: #000;
+    padding: 10px 0;
+    color: #409BFB;
+}
+.logo-footer img {
+    width: 150px;
+    height: auto;
+}
+.developer-info  {
+    margin-top: 10px;
+}
+.list-footer-info {
+    overflow: hidden;
+}
+.list-footer-info .list-name h3 {
+    font-size: 14px;
+}
+.list-footer-info ul {
+    overflow: hidden;
+}
+.list-footer-info ul li {
+    margin-right: 10px;
+}
+.list-footer-info ul li i {
+    font-size: 35px;
+    color: #409bfb;
+}
